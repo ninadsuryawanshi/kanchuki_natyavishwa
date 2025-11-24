@@ -1,0 +1,15 @@
+[
+  {
+    "id": "2rzt809zm",
+    "date": "2025-11-22T08:48:08.853Z",
+    "status": "Returned",
+    "customerName": "john doe",
+    "items": [
+      {
+        "productId": "5j8e973mp",
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 3000
+  }
+]

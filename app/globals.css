@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Ensure text is visible in inputs */
+input,
+textarea,
+select {
+  color: var(--foreground);
+  background-color: var(--background);
+}
+
+/* High contrast for dark mode inputs if needed, though --foreground handles it usually */
+@media (prefers-color-scheme: dark) {
+
+  input,
+  textarea,
+  select {
+    background-color: #1a1a1a;
+    border-color: #333;
+  }
+}
