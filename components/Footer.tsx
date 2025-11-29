@@ -15,7 +15,7 @@ export function Footer() {
                                 alt="Kanchuki Logo"
                                 width={50}
                                 height={50}
-                                className="h-12 w-auto object-contain brightness-0 invert"
+                                className="h-12 w-auto object-contain grayscale invert mix-blend-screen"
                             />
                             <span className="text-xl font-bold text-white tracking-wide">KANCHUKI</span>
                         </div>

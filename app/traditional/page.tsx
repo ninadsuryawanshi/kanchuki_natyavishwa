@@ -45,8 +45,8 @@ export default function TraditionalPage() {
     return (
         <div className="container px-4 py-10">
             <div className="mb-10 text-center">
-                <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">Traditional Collection</h1>
-                <p className="mt-4 text-lg text-slate-600">
+                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Traditional Collection</h1>
+                <p className="mt-4 text-lg text-slate-300">
                     Explore our exquisite collection of traditional wear, perfect for weddings and festivals.
                 </p>
             </div>

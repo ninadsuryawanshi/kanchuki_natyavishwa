@@ -14,7 +14,7 @@ export function Navbar() {
                         alt="Kanchuki Natyavishwa"
                         width={200}
                         height={60}
-                        className="h-16 w-auto object-contain transition-transform group-hover:scale-105"
+                        className="h-16 w-auto object-contain transition-transform group-hover:scale-105 mix-blend-multiply"
                         priority
                     />
                 </Link>
@@ -30,10 +30,7 @@ export function Navbar() {
                     </Link>
                 </div>
                 <div className="flex items-center space-x-4">
-                    <Button variant="ghost" size="icon" className="text-slate-700 hover:text-yellow-600 hover:bg-yellow-50">
-                        <ShoppingBag className="h-5 w-5" />
-                        <span className="sr-only">Shopping Cart</span>
-                    </Button>
+
 
                 </div>
             </div>

@@ -45,8 +45,8 @@ export default function WesternPage() {
     return (
         <div className="container px-4 py-10">
             <div className="mb-10 text-center">
-                <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">Western Collection</h1>
-                <p className="mt-4 text-lg text-slate-600">
+                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">Western Collection</h1>
+                <p className="mt-4 text-lg text-slate-300">
                     Discover our trendy western wear, from elegant gowns to sharp suits.
                 </p>
             </div>
